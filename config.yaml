@@ -25,9 +25,14 @@ params:
   description: "A high performance hugo theme for personal portfolio and blog."
 
   # Navbar Menus
+  customMenus:
+    - name: "Blog"
+      Url: "https://github.com/abheaks/AbheaksPortfolio/blob/main/Abhijith%20Resume.pdf"
+
+  # Navbar Menus
 #  customMenus:
-#    - name: "Blog"
-#      Url: "/blog"
+ #   - name: "Resume"
+  #    Url: "https://github.com/abheaks/AbheaksPortfolio/blob/main/Abhijith%20Resume.pdf"
 
   # home
   disable_home: false
@@ -142,4 +147,4 @@ params:
 
   # Blog
   showdescription: false
-  tweet: true
+  tweet: false
